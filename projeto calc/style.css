@@ -1,0 +1,125 @@
+/*dark theme*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --bg-color:#f1f5f9;
+    --error-color:#ff0043;
+    --font-color:#212529;
+    --start-color:#26834a;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+header{
+    color: var(--font-color);
+}
+
+main{
+    margin-top: 8vh;
+}
+
+#swith{
+display: flex;
+justify-content: end;
+padding: 10px;
+}
+
+#input{
+    width: 95%;
+    padding: 10px;
+}
+
+#camp-calc{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: var('--bg-color');
+    color:var('--font-color')
+}
+
+#camp-calc button{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    background-color: var('--start-color')
+}
+
+/*white theme*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body-white{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+header-white{
+    color: aliceblue;
+}
+
+main-white{
+    margin-top: 8vh;
+}
+
+#swith-white{
+display: flex;
+justify-content: end;
+padding: 10px;
+}
+
+#input{
+    width: 95%;
+    padding: 10px;
+}
+
+#camp-calc{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#camp-calc button{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    background-color:var(--start-color);
+    color: var(--font-color);
+}
+
+#result_div{
+    display: flex;
+    justify-content: end;
+}
+
+#result_div button{
+    padding: 15px;
+    border-radius:10px 0px 0px 10px;
+    border: 1px solid grey;
+}
+
+#result_div input{
+    padding: 15px;
+}
+
+.sucess{
+    background-color: var(--start-color);
+}
+
+.erro{
+    background-color: var(--error-color);
+}
